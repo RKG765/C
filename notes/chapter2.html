@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chapter2</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>CH.2 Instructions and Operators</h1>
+        <p>A C program is a set of instructions.</p>
+        <h2>Types of instructions</h2>
+        <p>1.Type declaration Instruction:Like int a; float b; char c;.<br>2.Arithmetic Instruction:Like adding,substracting,etc.<br>3.Control Instruction:It also tells the computer which part of code will execute first and also which part of code will run or not.Like for loop,while loop</p>
+        <h3>Arithmetic Instruction</h3>
+        <p>Let's take an example int a= (3*2)+1; <br> Here 3,2,1 are operands and *,+ are operators. <br>Operands can be int/flaot/car etc. <br>+,-,*,/ are arithemetic operators. <br>Modular divisor operator(%),which gives you remainder,it can't be applied on float,it's sing(-&+) is same as the numerator. <br>NOTE: i.)No operator is assumed to be present.Such as <br> int c= ab; (Invalid) <br>int c= axb (Invalid) <br> int c= (a)b (Invalid) <br>int c= a*b; (Valid) <br> int c= (a)*(b); (Valid) <br>ii.) There is no operator to perform exponetiation in C.However we can use pow(x,y) from math.h. </p>
+        <h3>Type Conversion</h3>
+        <p>An Arithmetic operator between <br>int and int = int <br>int and float = float <br> float and float = float. <br> If you take int a = 3.5; <br>In this case 3.5(float) will be demoted to 3(int) because a is not able to store float. <br>CASE: float a= 3; Here it a will store 3.0 as float.</p>
+        <h2>Operator Precedence in C</h2>
+        <p> 3*x -8y is (3x)-(8y) or 3(x-8y)? <br>In C language simple mathematical rules like BODMAS, no longer applies. <br>The answer to the above question is provided by Operator Precedence & Associativity.</p>
+        <h3>Operator Precedence:Priority</h3>
+        <p>The following table lists the opertaors priority in C.  <br>Priority------Operators <br>1st ------------ *, /, % <br>2nd ------------ +, - <br>3rd ------------ = <br>Operator of higher priority are evaluated first in the abesence of parenthesis.</p>
+        <h3>Operator Associativity</h3>
+        <p>When operators of equal priority are present in an expression, the tie is taken care of by associativity.Like: <br> x*y/z ---- (x*y)/y <br>x/y*z ---- (x/y)*z. <br>*,/ follows left to right associativity.</p>
+        <h3>Control instructions</h3>
+        <p>NOTE: We will learn this in depths later in the chapters.</p>
+        <p>Determines the flow of control in a C program. <br>Four types of control Instructions in C are: <br>1.Sequence Control Instruction <br>2.Decision Control Instruction <br>3.Loop Control Instruction <br>4.Case  Control Instruction</p>
+        <h2>Answer some questions</h2>
+        <p>1.Which of the following is Invalid in C. <br>i.int a; b=a; <br>ii.int v=3^3; <br>iii.char dt='21 Dec 2020'; <br> <br> 2.What datatype will 3.0/8-2 will return?(In C language most of the compilers treat decimal number as a double datatype.)<br> <br>3.Write a program to cheak wheather a number is divisible by 97 or not.<br> <br>4.Explain step by step evaluation of 3*x/y-z+k.whaere x=2,y=3,z=3,k=1.<br> <br>5. 3.0+1 will be: <br>i. integer <br>ii.floating point number <br>iii. character</p>
+    </div>
+</body>
+</html>

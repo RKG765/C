@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chapter-6</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Pointers</h1>
+        <p>A pointer is variable which stores the address of another variable.Like we used the & means address of in scanf function. <br>Address- In memory of computer every body have a address. <br>Like: read the example we make two variables a,b. <br>Then we store int a=23; and it's address may be 234543.Now we make second variable b=234543. Here we can see that b is pointing towards a because we put a's address into b.So, b will be called Pointer.</p>
+        <h3>& Operator</h3>
+        <p>The address of operator is used to obtain the address of a given variable. <br>Now we use %u to print &. <br>The value of address operator (*) is used to obtain the value present at a given memory.  </p>
+        <h4>How to declare a pointer?</h4>
+        <p>A pointer is declared using the following syntax. <br> int *a; Here declared a variable a in type int-pointer. <br>a=&b; Here store address of b in a. <br>There are three pointer type declareation. <br>1. int *a; ----> Pointer to integer. <br>2. char *a; ----> Pointer to character. <br>3. float *a; ----> Pointer to float.</p>
+        <h4>Pointer To A Pointer</h4>
+        <p>Just like above a points to b or storing the address of b, we can have another variable k which can further store the address of a. <br>The type k will be written as below: <br>int **k; <br>NOTE: <br>You can create unlimited numbers of pointer by adding the * before the variable like to store the address of k we will create a new pointer named l. <br>int ***l; <br>Write the condition(l=&k;).</p>
+        <h2>Types Of Function Calls</h2>
+        <p>Based on the way we pass arguments to the function,Function calls are two of two types. <br>1.Call by Value: Here the value of argument are passed to the function.(example in the code.) <br>In C we usually use a call by value function. <br>2.Call by reference: Here address of the variables is passed to the function as arguments. <br>Now the adderesses are passedd to the function, the function can now modify the value of a variable in calling function using * and & operators. </p>
+        <h2>Practice Set</h2>
+        <p>1.Write a program to print the address of a variable.Use this address to get the value of the variable. <br>2.Write a program having a variable i. print the address of i.Pass this variable to a function and print it's address.Are these addresses are same?Why? <br>3.Write a program to change the value of a variable to ten times of it's current value.Write a function and pass the value by refrence. <br>4.Write a program using a function which calculates the sum and the average of two numbers.Use pointers and print the value of sum and average in main(). <br>5.Write a program to print the value of a variable i by using pointer to pointer type of variable. <br>6.Try problem 3 using call by value and verify that it doesn't change the value of the same variable. </p>
+    </div>
+    
+</body>
+</html>

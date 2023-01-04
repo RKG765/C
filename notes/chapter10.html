@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chapter-10</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>File I/O</h1>
+        <p>The Random Access Memory is volatile and it's content is lost once the program terminates.In order to persists the data we use files. <br>A file is data stored in storage device. <br>A C prgram can talk to the file by readint contents and writing contents to it.</p>
+        <h2>File Pointer</h2>
+        <p>The "FILE" is a structure which needs to be created for opening the file. <br>A FILE pointer is a pointer to this structure of the file. </p>
+        <h2>File Opening Modes In C</h2>
+        <p>C offers the programmer to select a mode for opening a file. <br>Following moder are primarly used in C FILE I/O. <br>NOTE:If the file doen't exists the fopen returns null for 1,2. <br>If the file exists the contents will be overwrite for 3,4. <br>If the file doesn't exists it will be created for 5. <br>1."r" ---->Open for reading. <br>2."rb" ---->Open for reading in binary. <br>3."w" ---->Open for writing. <br>4."wb" ---->Open for writing in binary. 5."a" ---->Open for append.</p>
+        <h2>Types Of Files</h2>
+        <p>1. Text Files: {.txt,.c} <br>2.Binary Files: {.jpg,.dat}</p>
+        <h2>Reading A File</h2>
+        <p>A file can be open for reading as follows in the program. <br>It uses fscanf & fprintf functions.</p>
+        <h2>Closing A File</h2>
+        <p>It is very important to close the file after read or write.</p>
+        <h1>QUICK-QUIZ</h1>
+        <p>Modify the program to check weather the file exist or not before opening the file.</p>
+        <h2>Writing To A File</h2>
+        <p>We can write to a file in a similar manner like reading.</p>
+        <h2>fgetc() and fputc() Function</h2>
+        <p>fgetc and fputc are used to read and write a character from/to a file.</p>
+        <h2>EOF: End Of File</h2>
+        <p>fgetc returns EOF when all the characters from a file has been read.</p>
+        
+
+    </div>
+</body>
+</html>

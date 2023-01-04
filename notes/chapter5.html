@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chapter-5</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Functions and Recursion</h1>
+        <p>Sometimes our program gets bigger in size and it's not possible for a programmer to track which peice of code is doing what. <br>Function is way to break our code into chunks so that it is possible for a programmer to reuse it. </p>
+        <h2>What is Function?</h2>
+        <p>A function is a block of code which performs a particular task. <br>A function can be reused by the programmer in a given program any number of times. <br>NOTE: <br>All code of this chapter are in chapter_05== (in code) file. <br>There are some parts of function and code as follows: <br>1.Function prototype: It is a way to tell the compiler about the function that we are going to define in the program.Here the void indicates that the function returns nothing. <br>2.Function call: It is a way to tell the compiler to execute the function body at the time the call is made. <br>NOTE: That the program execution starts from the main function in the sequence the instructions are written. <br>Function definition: This part contains the exact set of instructions which are executed during the function call in main body.When it is called from main(), the main function falls asleep and gets temporarily suspended.During this time the control goes to the function being called.When the function body is done executing main() resumes. <br> <br><big>Important points</big> <br>Execution of a C program starts from main(). <br>A C program can have more than one function. <br>Every function gets called directly or indirectly from main(). <br>There are two types of function in C. </p>
+        <h3>Quick Quiz</h3>
+        <p>Write a program with three functions <br>1.good morning function which prints "Good Morning!". <br>2.good afternoon function which prints "Good Afternoon!". <br>3.good night function which prints "Good Night!".</p>
+        <h3>Types of Function</h3>
+        <p>1.Library functions: Commn;y required functions grouped together in a library.Like-- printf,scanf,etc. <br>2.User-defined function: These are the functions declared and defined by the user.</p>
+        <h3>Why Use Function?</h3>
+        <p>1.To avoid rewriting the same logic again and again. <br>2.To keep track of what we are doing in the program. <br>3.To test and check logic independently.</p>
+        <h4>Passing Values To The Function</h4>
+        <p>The function which takes values is called parameter and the one which gives values is called return value. <br>NOTE: <br>1.Parameters are the values or variables placeholders in the function definition. <br>Arguments are the actual values passed to the function to make a call. <br>A function can return only one variable at a time. <br>If the passed variable is changed inside the function, the funnction call doesn't chnage the value in the calling function. </p>
+        <h3>Quick-Quiz</h3>
+        <p>Use the library functions to calculate the area of square. <br>2.And also the area of circle(with pi=3.14).</p>
+        <h2>Recursion</h2>
+        <p>A function defined in C can call itself.This is called recursion. <br>A function calling itself is also called recusive function. <br><big>Important Notes:</big> <br>1.Recursion is sometimes the most direct way to code an algorithm. <br>2.The condition which doesn't call the function any further in a recursive function is called the base fuction. <br>Sometimes, due to a mistake made by a programmer, a recursive function can keep running without returning result in a memory error. </p>
+        <h2>Pratice Set</h2>
+        <p>1.Write a program using function to find average of three numbers. <br>2.Write a function to convert celcius temperature into farenheit. <br>3.Write a function to calculate force of attraction on a body of mass m exerted by the earth g= 9.8m/s^2. <br>4.Write a program using a recursive to calculate n'th element of fibonachi series. <br>5.What will be the following line produce in a C program.------->  printf("%d %d %d\n",a,++a,a++); <br>6.Write a program to find first sum of n natural numbers. <br>7.Write a program using functions to print the * pattern(first n lines). </p>
+
+    </div>
+    
+</body>
+</html>

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chapter-4</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Loop Control Instruction</h1>
+        <h2>Why Loops</h2>
+        <p>Sometimes we want our program to execute few sets of instructions again and again.For example printing 1 to 100, first 100 even numbers. <br>Hence Loops make it easy for a programmer to tell computer that a given set of instructions must be executed. </p>
+        <h2>Types of Loops</h2>
+        <p>Primarly, there are three types of loop in C language.NOTE:Their codes are in programs filename:chapter_04. <br>1.While Loop:NOTE-- If the condition never becomes false, the while loop keeps getting executed.Such a loop is known as infinite loop. <br>Loop counter need not to be in int, it can be float as well. <br>Quik quiz:Write a program to print natural numbers from 10 to 20, when initial loop counter is intialized to 0.
+        <h3>Increment and Decrement Operators</h3>
+        <p>int i; <br>In loop: i++ will increased by 1. <br>i-- will decreased by 1. <br>See in code:02_incrementop.c . <br>+++ operaator does not exist. <br>Some Compound Assaingment operators like: -= , +=, /=, %=. </p>
+        <h2>Do-while Loop</h2>
+        <p>In Do-While Loop the code gets executed first then the while loop works.<br>Synntax and code of do-while loop is folder name:03_dowhile.c. <br>Quick-Quiz: <br>Write a program to print first n natural numbers using do-while loop. <br>Input:4 <br>Output:1 <br>2 <br>3 <br>4 <br>Code in:03_quickquiz.c.</p>
+        <h2>For Loop</h2>
+        <p>It is  compact version of While Loop. <br>It has three statements Like: <br>1.intialize: Setting a loop counter to a initial value. <br>2.Test: Cheaking a condition. <br>3.Increment or Decrement: Updating the loop counter. <br>Quick-Quiz: <br>Write a program to print first n natural numbers using for loop. <br>A case of decrementing for loop:(code in program:05_decrementingfor.c) Here the loop will keep on running until  i becomes 0. because 1.its values is intialized to 5. <br>The condition "i" is tested.It is zero or none if it is the loop will exit. <br>3.The code is executed. <br>4.i is decremented. <br>5.Condition i is checked 2. code is executed if it is non 0. <br>Quick-Quiz: <br>Write a program to print n natural numbers in reverse order.</p>
+        <h2>The Break-Statement</h2>
+        <p>The break-statement is  used to exit the loop irrespective of whether the condition is true or false. <br>Whenever a "break" is encountered inside the loop, the control is sent outside the loop. <br>It can be  used in for , while, do-while loops.</p>
+        <h2>Continue Statement</h2>
+        <p>Continue Statement is used to immideately move to the next iteration of the loop. <br>The control is taken to the next iteration thus skipping everything below "continue" inside the loop for that iteration. <br>NOTES: <br>1.Sometimes, the name of the variable might not indicate the behaviour of the program. <br>2.break-statement completely exists the loop. <br>3.continue-statement skips the particular iteration of the loop. </p>
+        <h2>Pratice Set</h2>
+        <p>Questions: <br>1.Write a program to print multiplication table of a given number. <br>2.Write a program to print multiplication table in reverse order. <br>3.Write a program to sum first 10 natural numbers using while loop,for loop, do-while loop. <br>4.Write a program to calculate the sum of the numbers occuring in the multiplication table of 8. <br>4.Write a program to calculate the factorial of a given number using for loop, while loop, do-while loop. <br>5.Write a program to check whether a given number is prime or not using loops(all). </p>
+    </div>
+</body>
+</html>

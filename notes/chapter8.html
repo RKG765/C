@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CH.Strings</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Strings</h1>
+        <p>A string is a 1-D character array terminated by a null('\0') --Zero--. <br>Null cahracter is used to denote string termination characters are stored in continious memory location.Means at the end of the string.</p>
+        <h4>Initializing Strings</h4>
+        <p>Since string is a array of characters,It can be intialized as follows: <br>-----> Code in program. <br>There is another shortcut for initializing strings in C language. <br>-----> Code in program.</p>
+        <h4>Strings In Memory</h4>
+        <p>A string is stored just like an array in the memory. <br>It's size is 1-byte.</p>
+        <h4>Printing Strings</h4>
+        <p>A string can be printed character by cahracter using printf and %c. <br>But there is a another convenient way to print strings in C by using %s.(----> Code in program.) <br>We can use %s with scanf to take input from the user. <br>Scanf automatically adds the null character when the enter key is pressed. <br>NOTE: <br>1.The string should be short enough to fit into the array. <br>2.Scanf cannot be used to input multi-word string with input.</p>
+        <h3>Gets() and Puts()</h3>
+        <p>gets(): <br>It is function which can be used to recieve a multi-word string. <br>Multiple gets() calls will be needed for multiple strings. <br>Likewise, puts() can be used to output a string.</p>
+        <h2>Declaring A Pointer In Strings</h2>
+        <p>We can declare a string using pointers. <br> char *ptr = "Raj"; <br>This tells the compiler to store the string in the memory and assinged address is stored int char pointer. <br>NOTE: <br>1.Once a string is defined using char st[]= "Raj"; it cannot be reintialized to something else. <br>2.A string defined using pointers can be reintialized.</p>
+        <h2>Standard Library Function For Strings</h2>
+        <p>C provides a set of standard library functions for string manipulation. <br>Some of the most commonly used string functions are: <br>1. strlen(): This function is used to count the number of characters in the string excluding null(\0). <br>2. strcpy(): This function is used to copy the content of second string into first string passed to it.Which means first comes the target in which you want to copy then source.Target string should have enough capacity to store the source string. <br>3. strcat(): This function is used to concatenate two functions.Here the it will add every characters to the first assinged char array.  <br>4. strcpm(): This function is used to compare two strings.It returns 0 if both the string are equal(same in character),Negative value if first string's mismatching character is less than second string's mismatching cahracter.It will return positive value otherwise.</p>
+        <h2>Practice Set</h2>
+        <p>1.</p>
+    </div>
+</body>
+</html>

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chapter 9</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Structures</h1>
+        <p>Arrays and Strings can take only similar data like int,char,float at one time. <br>Structures can hold disimialr data. <br>Synatax for creating structures is in programs. <br>So a structure in C is a collection of variables of different types under a single name.<br>Quick-Quiz:<br>Write a program to store the details of 3 employee from user defined data.</p>
+        <h2>Why Use Structures</h2>
+        <p>We can create the datatype in the employee structure seperately but when the number of properties in a structure increases,it becomes difficult for us to create data variables without structures. <br>i.)Structures keeps the data organised. <br>ii.)Structures makes data management easy for the programmer. </p>
+        <h3>Arrays In Structure</h3>
+        <p>Just like an array of integers,floats or character, we can create an array of structures. <br>Initialinzing structures: Code are in programs.</p>
+        <h3>Structures In Memory</h3>
+        <p>Structures are stored in continious memory locations.For the structure e1 of type struct employee.<br>In an array of structures, these employee instances are stored adjacent to each other.Like in case of e1,e2 these will stored as adjacent to each other.</p>
+        <h2>Pointers To Structures</h2>
+        <p>Code in program. <br>Arrow Operator: Instead of writing (*ptr).name, we can use arrow operator to access structures properties as follows. <br>(*ptr).name || ptr->name <br>Here, -> is known as the arrow operator.</p>
+        <h2>Passing Structures To A Function</h2>
+        <p>A structure can be passed to a function just like any other datatype. <br>Quick-Quiz: <br>Write a function with structure to display the content in it.</p>
+        <h3>Typedef Keyword</h3>
+        <p>We can use typedef keyword to create an alias name for data types in C. <br>typedef is more commonly used with structures. <br>It is also used for making custom datatypes in C.</p>
+    </div>
+</body>
+</html>

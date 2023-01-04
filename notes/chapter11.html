@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chapter-11</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Introduction</h1>
+        <p>C is a language with some fixed rules of programming.Such as:Changing the size of an array is not allowed/.</p>
+        <h1>Dynamic Memory Allocation(DMA)</h1>
+        <p>It is a way to allocate memory to a data structure during the runtime.We can use DMA functions avaliable in C to allocate and free the memory during the runtime.</p>
+        <h2>Functions For DMA In C</h2>
+        <p>Following functions are avaliable in C to perform the Dynamic Memory Allocation.</p>
+        <h3>malloc() function</h3>
+        <p>malloc stands for memory allocation.It takes number of bytes to be allocated as an input and returns a pointer of type void.</p>
+        <h3>calloc() function</h3>
+        <p>calloc function stands for continious allocation. <br>It initilizes each memory block with a defalult value of 0. <br>If the space is not sufficient memory allocation fails and a NULL pointer is returned.</p>
+        <h3>free() function</h3>
+        <p>We can use free() function to deallocate the memory. <br>The memory allocated using calloc/malloc is not deallocated automatically.</p>
+        <h3>realloc() function</h3>
+        <p>Sometimes the dynamically allocated memory is insufficient or more than required. <br>realloc() is used to allocate memory of new size using the previous pointer and size.</p>
+    </div>
+</body>
+</html>
